@@ -7,7 +7,7 @@ import MySQLdb
 from prettytable import from_db_cursor
 
 # iRedAdmin location
-iredadmin_install_path = '/usr/share/apache2/iredadmin'
+iredadmin_install_path = '/opt/www/iredadmin'
 # Add to path list
 sys.path.append(iredadmin_install_path)
 
